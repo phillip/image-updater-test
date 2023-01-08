@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   annotations:
-     lastupdatedat:
+     2023-01-08T00:15:46Zlastupdatedat:
 spec:
   selector:
     matchLabels:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:v0.1
+        image: nginx:v0.2
         ports:
         - containerPort: 80
