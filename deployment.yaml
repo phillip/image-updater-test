@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   annotations:
-     2023-01-08T00:15:46Zlastupdatedat:
+     lastupdatedat: ts
 spec:
   selector:
     matchLabels:
